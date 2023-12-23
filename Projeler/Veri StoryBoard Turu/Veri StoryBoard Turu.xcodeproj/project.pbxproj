@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8589FDF72B375FAE008285A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FDF62B375FAE008285A7 /* AppDelegate.swift */; };
+		8589FDF92B375FAE008285A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FDF82B375FAE008285A7 /* SceneDelegate.swift */; };
+		8589FDFB2B375FAE008285A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FDFA2B375FAE008285A7 /* ViewController.swift */; };
+		8589FDFE2B375FAE008285A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8589FDFC2B375FAE008285A7 /* Main.storyboard */; };
+		8589FE002B375FB1008285A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8589FDFF2B375FB1008285A7 /* Assets.xcassets */; };
+		8589FE032B375FB1008285A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8589FE012B375FB1008285A7 /* LaunchScreen.storyboard */; };
+		8589FE0E2B375FB1008285A7 /* Veri_StoryBoard_TuruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FE0D2B375FB1008285A7 /* Veri_StoryBoard_TuruTests.swift */; };
+		8589FE182B375FB1008285A7 /* Veri_StoryBoard_TuruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FE172B375FB1008285A7 /* Veri_StoryBoard_TuruUITests.swift */; };
+		8589FE1A2B375FB1008285A7 /* Veri_StoryBoard_TuruUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589FE192B375FB1008285A7 /* Veri_StoryBoard_TuruUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8589FE0A2B375FB1008285A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8589FDEB2B375FAE008285A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8589FDF22B375FAE008285A7;
+			remoteInfo = "Veri StoryBoard Turu";
+		};
+		8589FE142B375FB1008285A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8589FDEB2B375FAE008285A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8589FDF22B375FAE008285A7;
+			remoteInfo = "Veri StoryBoard Turu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8589FDF32B375FAE008285A7 /* Veri StoryBoard Turu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veri StoryBoard Turu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8589FDF62B375FAE008285A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8589FDF82B375FAE008285A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8589FDFA2B375FAE008285A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8589FDFD2B375FAE008285A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8589FDFF2B375FB1008285A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8589FE022B375FB1008285A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8589FE042B375FB1008285A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8589FE092B375FB1008285A7 /* Veri StoryBoard TuruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri StoryBoard TuruTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8589FE0D2B375FB1008285A7 /* Veri_StoryBoard_TuruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_StoryBoard_TuruTests.swift; sourceTree = "<group>"; };
+		8589FE132B375FB1008285A7 /* Veri StoryBoard TuruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri StoryBoard TuruUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8589FE172B375FB1008285A7 /* Veri_StoryBoard_TuruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_StoryBoard_TuruUITests.swift; sourceTree = "<group>"; };
+		8589FE192B375FB1008285A7 /* Veri_StoryBoard_TuruUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_StoryBoard_TuruUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8589FDF02B375FAE008285A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE062B375FB1008285A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE102B375FB1008285A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8589FDEA2B375FAE008285A7 = {
+			isa = PBXGroup;
+			children = (
+				8589FDF52B375FAE008285A7 /* Veri StoryBoard Turu */,
+				8589FE0C2B375FB1008285A7 /* Veri StoryBoard TuruTests */,
+				8589FE162B375FB1008285A7 /* Veri StoryBoard TuruUITests */,
+				8589FDF42B375FAE008285A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8589FDF42B375FAE008285A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8589FDF32B375FAE008285A7 /* Veri StoryBoard Turu.app */,
+				8589FE092B375FB1008285A7 /* Veri StoryBoard TuruTests.xctest */,
+				8589FE132B375FB1008285A7 /* Veri StoryBoard TuruUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8589FDF52B375FAE008285A7 /* Veri StoryBoard Turu */ = {
+			isa = PBXGroup;
+			children = (
+				8589FDF62B375FAE008285A7 /* AppDelegate.swift */,
+				8589FDF82B375FAE008285A7 /* SceneDelegate.swift */,
+				8589FDFA2B375FAE008285A7 /* ViewController.swift */,
+				8589FDFC2B375FAE008285A7 /* Main.storyboard */,
+				8589FDFF2B375FB1008285A7 /* Assets.xcassets */,
+				8589FE012B375FB1008285A7 /* LaunchScreen.storyboard */,
+				8589FE042B375FB1008285A7 /* Info.plist */,
+			);
+			path = "Veri StoryBoard Turu";
+			sourceTree = "<group>";
+		};
+		8589FE0C2B375FB1008285A7 /* Veri StoryBoard TuruTests */ = {
+			isa = PBXGroup;
+			children = (
+				8589FE0D2B375FB1008285A7 /* Veri_StoryBoard_TuruTests.swift */,
+			);
+			path = "Veri StoryBoard TuruTests";
+			sourceTree = "<group>";
+		};
+		8589FE162B375FB1008285A7 /* Veri StoryBoard TuruUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8589FE172B375FB1008285A7 /* Veri_StoryBoard_TuruUITests.swift */,
+				8589FE192B375FB1008285A7 /* Veri_StoryBoard_TuruUITestsLaunchTests.swift */,
+			);
+			path = "Veri StoryBoard TuruUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8589FDF22B375FAE008285A7 /* Veri StoryBoard Turu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8589FE1D2B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard Turu" */;
+			buildPhases = (
+				8589FDEF2B375FAE008285A7 /* Sources */,
+				8589FDF02B375FAE008285A7 /* Frameworks */,
+				8589FDF12B375FAE008285A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veri StoryBoard Turu";
+			productName = "Veri StoryBoard Turu";
+			productReference = 8589FDF32B375FAE008285A7 /* Veri StoryBoard Turu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8589FE082B375FB1008285A7 /* Veri StoryBoard TuruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8589FE202B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard TuruTests" */;
+			buildPhases = (
+				8589FE052B375FB1008285A7 /* Sources */,
+				8589FE062B375FB1008285A7 /* Frameworks */,
+				8589FE072B375FB1008285A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8589FE0B2B375FB1008285A7 /* PBXTargetDependency */,
+			);
+			name = "Veri StoryBoard TuruTests";
+			productName = "Veri StoryBoard TuruTests";
+			productReference = 8589FE092B375FB1008285A7 /* Veri StoryBoard TuruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8589FE122B375FB1008285A7 /* Veri StoryBoard TuruUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8589FE232B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard TuruUITests" */;
+			buildPhases = (
+				8589FE0F2B375FB1008285A7 /* Sources */,
+				8589FE102B375FB1008285A7 /* Frameworks */,
+				8589FE112B375FB1008285A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8589FE152B375FB1008285A7 /* PBXTargetDependency */,
+			);
+			name = "Veri StoryBoard TuruUITests";
+			productName = "Veri StoryBoard TuruUITests";
+			productReference = 8589FE132B375FB1008285A7 /* Veri StoryBoard TuruUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8589FDEB2B375FAE008285A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8589FDF22B375FAE008285A7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8589FE082B375FB1008285A7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8589FDF22B375FAE008285A7;
+					};
+					8589FE122B375FB1008285A7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8589FDF22B375FAE008285A7;
+					};
+				};
+			};
+			buildConfigurationList = 8589FDEE2B375FAE008285A7 /* Build configuration list for PBXProject "Veri StoryBoard Turu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8589FDEA2B375FAE008285A7;
+			productRefGroup = 8589FDF42B375FAE008285A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8589FDF22B375FAE008285A7 /* Veri StoryBoard Turu */,
+				8589FE082B375FB1008285A7 /* Veri StoryBoard TuruTests */,
+				8589FE122B375FB1008285A7 /* Veri StoryBoard TuruUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8589FDF12B375FAE008285A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589FE032B375FB1008285A7 /* LaunchScreen.storyboard in Resources */,
+				8589FE002B375FB1008285A7 /* Assets.xcassets in Resources */,
+				8589FDFE2B375FAE008285A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE072B375FB1008285A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE112B375FB1008285A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8589FDEF2B375FAE008285A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589FDFB2B375FAE008285A7 /* ViewController.swift in Sources */,
+				8589FDF72B375FAE008285A7 /* AppDelegate.swift in Sources */,
+				8589FDF92B375FAE008285A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE052B375FB1008285A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589FE0E2B375FB1008285A7 /* Veri_StoryBoard_TuruTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589FE0F2B375FB1008285A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589FE182B375FB1008285A7 /* Veri_StoryBoard_TuruUITests.swift in Sources */,
+				8589FE1A2B375FB1008285A7 /* Veri_StoryBoard_TuruUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8589FE0B2B375FB1008285A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8589FDF22B375FAE008285A7 /* Veri StoryBoard Turu */;
+			targetProxy = 8589FE0A2B375FB1008285A7 /* PBXContainerItemProxy */;
+		};
+		8589FE152B375FB1008285A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8589FDF22B375FAE008285A7 /* Veri StoryBoard Turu */;
+			targetProxy = 8589FE142B375FB1008285A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8589FDFC2B375FAE008285A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8589FDFD2B375FAE008285A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8589FE012B375FB1008285A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8589FE022B375FB1008285A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8589FE1B2B375FB1008285A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8589FE1C2B375FB1008285A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8589FE1E2B375FB1008285A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri StoryBoard Turu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-Turu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8589FE1F2B375FB1008285A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri StoryBoard Turu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-Turu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8589FE212B375FB1008285A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-TuruTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri StoryBoard Turu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veri StoryBoard Turu";
+			};
+			name = Debug;
+		};
+		8589FE222B375FB1008285A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-TuruTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri StoryBoard Turu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veri StoryBoard Turu";
+			};
+			name = Release;
+		};
+		8589FE242B375FB1008285A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-TuruUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri StoryBoard Turu";
+			};
+			name = Debug;
+		};
+		8589FE252B375FB1008285A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.Veri-StoryBoard-TuruUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri StoryBoard Turu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8589FDEE2B375FAE008285A7 /* Build configuration list for PBXProject "Veri StoryBoard Turu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589FE1B2B375FB1008285A7 /* Debug */,
+				8589FE1C2B375FB1008285A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8589FE1D2B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard Turu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589FE1E2B375FB1008285A7 /* Debug */,
+				8589FE1F2B375FB1008285A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8589FE202B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard TuruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589FE212B375FB1008285A7 /* Debug */,
+				8589FE222B375FB1008285A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8589FE232B375FB1008285A7 /* Build configuration list for PBXNativeTarget "Veri StoryBoard TuruUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589FE242B375FB1008285A7 /* Debug */,
+				8589FE252B375FB1008285A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8589FDEB2B375FAE008285A7 /* Project object */;
+}
