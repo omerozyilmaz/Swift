@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859B2C0B2B472ADE00BF4115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C0A2B472ADE00BF4115 /* AppDelegate.swift */; };
+		859B2C0D2B472ADE00BF4115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C0C2B472ADE00BF4115 /* SceneDelegate.swift */; };
+		859B2C0F2B472ADE00BF4115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C0E2B472ADE00BF4115 /* ViewController.swift */; };
+		859B2C122B472ADE00BF4115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859B2C102B472ADE00BF4115 /* Main.storyboard */; };
+		859B2C142B472AE000BF4115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859B2C132B472AE000BF4115 /* Assets.xcassets */; };
+		859B2C172B472AE000BF4115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859B2C152B472AE000BF4115 /* LaunchScreen.storyboard */; };
+		859B2C222B472AE100BF4115 /* DenemeArayu_zTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C212B472AE100BF4115 /* DenemeArayu_zTests.swift */; };
+		859B2C2C2B472AE100BF4115 /* DenemeArayu_zUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C2B2B472AE100BF4115 /* DenemeArayu_zUITests.swift */; };
+		859B2C2E2B472AE100BF4115 /* DenemeArayu_zUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C2D2B472AE100BF4115 /* DenemeArayu_zUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		859B2C1E2B472AE100BF4115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 859B2BFF2B472ADE00BF4115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859B2C062B472ADE00BF4115;
+			remoteInfo = "DenemeArayüz";
+		};
+		859B2C282B472AE100BF4115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 859B2BFF2B472ADE00BF4115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859B2C062B472ADE00BF4115;
+			remoteInfo = "DenemeArayüz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		859B2C072B472ADE00BF4115 /* DenemeArayüz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DenemeArayüz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859B2C0A2B472ADE00BF4115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		859B2C0C2B472ADE00BF4115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		859B2C0E2B472ADE00BF4115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		859B2C112B472ADE00BF4115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		859B2C132B472AE000BF4115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		859B2C162B472AE000BF4115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		859B2C182B472AE000BF4115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859B2C1D2B472AE100BF4115 /* DenemeArayüzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DenemeArayüzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859B2C212B472AE100BF4115 /* DenemeArayu_zTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeArayu_zTests.swift; sourceTree = "<group>"; };
+		859B2C272B472AE100BF4115 /* DenemeArayüzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DenemeArayüzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859B2C2B2B472AE100BF4115 /* DenemeArayu_zUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeArayu_zUITests.swift; sourceTree = "<group>"; };
+		859B2C2D2B472AE100BF4115 /* DenemeArayu_zUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeArayu_zUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		859B2C042B472ADE00BF4115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C1A2B472AE100BF4115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C242B472AE100BF4115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		859B2BFE2B472ADE00BF4115 = {
+			isa = PBXGroup;
+			children = (
+				859B2C092B472ADE00BF4115 /* DenemeArayüz */,
+				859B2C202B472AE100BF4115 /* DenemeArayüzTests */,
+				859B2C2A2B472AE100BF4115 /* DenemeArayüzUITests */,
+				859B2C082B472ADE00BF4115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		859B2C082B472ADE00BF4115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				859B2C072B472ADE00BF4115 /* DenemeArayüz.app */,
+				859B2C1D2B472AE100BF4115 /* DenemeArayüzTests.xctest */,
+				859B2C272B472AE100BF4115 /* DenemeArayüzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		859B2C092B472ADE00BF4115 /* DenemeArayüz */ = {
+			isa = PBXGroup;
+			children = (
+				859B2C0A2B472ADE00BF4115 /* AppDelegate.swift */,
+				859B2C0C2B472ADE00BF4115 /* SceneDelegate.swift */,
+				859B2C0E2B472ADE00BF4115 /* ViewController.swift */,
+				859B2C102B472ADE00BF4115 /* Main.storyboard */,
+				859B2C132B472AE000BF4115 /* Assets.xcassets */,
+				859B2C152B472AE000BF4115 /* LaunchScreen.storyboard */,
+				859B2C182B472AE000BF4115 /* Info.plist */,
+			);
+			path = "DenemeArayüz";
+			sourceTree = "<group>";
+		};
+		859B2C202B472AE100BF4115 /* DenemeArayüzTests */ = {
+			isa = PBXGroup;
+			children = (
+				859B2C212B472AE100BF4115 /* DenemeArayu_zTests.swift */,
+			);
+			path = "DenemeArayüzTests";
+			sourceTree = "<group>";
+		};
+		859B2C2A2B472AE100BF4115 /* DenemeArayüzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				859B2C2B2B472AE100BF4115 /* DenemeArayu_zUITests.swift */,
+				859B2C2D2B472AE100BF4115 /* DenemeArayu_zUITestsLaunchTests.swift */,
+			);
+			path = "DenemeArayüzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		859B2C062B472ADE00BF4115 /* DenemeArayüz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859B2C312B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüz" */;
+			buildPhases = (
+				859B2C032B472ADE00BF4115 /* Sources */,
+				859B2C042B472ADE00BF4115 /* Frameworks */,
+				859B2C052B472ADE00BF4115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DenemeArayüz";
+			productName = "DenemeArayüz";
+			productReference = 859B2C072B472ADE00BF4115 /* DenemeArayüz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		859B2C1C2B472AE100BF4115 /* DenemeArayüzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859B2C342B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüzTests" */;
+			buildPhases = (
+				859B2C192B472AE100BF4115 /* Sources */,
+				859B2C1A2B472AE100BF4115 /* Frameworks */,
+				859B2C1B2B472AE100BF4115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859B2C1F2B472AE100BF4115 /* PBXTargetDependency */,
+			);
+			name = "DenemeArayüzTests";
+			productName = "DenemeArayüzTests";
+			productReference = 859B2C1D2B472AE100BF4115 /* DenemeArayüzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		859B2C262B472AE100BF4115 /* DenemeArayüzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859B2C372B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüzUITests" */;
+			buildPhases = (
+				859B2C232B472AE100BF4115 /* Sources */,
+				859B2C242B472AE100BF4115 /* Frameworks */,
+				859B2C252B472AE100BF4115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859B2C292B472AE100BF4115 /* PBXTargetDependency */,
+			);
+			name = "DenemeArayüzUITests";
+			productName = "DenemeArayüzUITests";
+			productReference = 859B2C272B472AE100BF4115 /* DenemeArayüzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		859B2BFF2B472ADE00BF4115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					859B2C062B472ADE00BF4115 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					859B2C1C2B472AE100BF4115 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 859B2C062B472ADE00BF4115;
+					};
+					859B2C262B472AE100BF4115 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 859B2C062B472ADE00BF4115;
+					};
+				};
+			};
+			buildConfigurationList = 859B2C022B472ADE00BF4115 /* Build configuration list for PBXProject "DenemeArayüz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 859B2BFE2B472ADE00BF4115;
+			productRefGroup = 859B2C082B472ADE00BF4115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859B2C062B472ADE00BF4115 /* DenemeArayüz */,
+				859B2C1C2B472AE100BF4115 /* DenemeArayüzTests */,
+				859B2C262B472AE100BF4115 /* DenemeArayüzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859B2C052B472ADE00BF4115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859B2C172B472AE000BF4115 /* LaunchScreen.storyboard in Resources */,
+				859B2C142B472AE000BF4115 /* Assets.xcassets in Resources */,
+				859B2C122B472ADE00BF4115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C1B2B472AE100BF4115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C252B472AE100BF4115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859B2C032B472ADE00BF4115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859B2C0F2B472ADE00BF4115 /* ViewController.swift in Sources */,
+				859B2C0B2B472ADE00BF4115 /* AppDelegate.swift in Sources */,
+				859B2C0D2B472ADE00BF4115 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C192B472AE100BF4115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859B2C222B472AE100BF4115 /* DenemeArayu_zTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859B2C232B472AE100BF4115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859B2C2E2B472AE100BF4115 /* DenemeArayu_zUITestsLaunchTests.swift in Sources */,
+				859B2C2C2B472AE100BF4115 /* DenemeArayu_zUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859B2C1F2B472AE100BF4115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 859B2C062B472ADE00BF4115 /* DenemeArayüz */;
+			targetProxy = 859B2C1E2B472AE100BF4115 /* PBXContainerItemProxy */;
+		};
+		859B2C292B472AE100BF4115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 859B2C062B472ADE00BF4115 /* DenemeArayüz */;
+			targetProxy = 859B2C282B472AE100BF4115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		859B2C102B472ADE00BF4115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859B2C112B472ADE00BF4115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		859B2C152B472AE000BF4115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859B2C162B472AE000BF4115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		859B2C2F2B472AE100BF4115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		859B2C302B472AE100BF4115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859B2C322B472AE100BF4115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DenemeArayüz/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		859B2C332B472AE100BF4115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DenemeArayüz/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		859B2C352B472AE100BF4115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-zTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DenemeArayüz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DenemeArayüz";
+			};
+			name = Debug;
+		};
+		859B2C362B472AE100BF4115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-zTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DenemeArayüz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DenemeArayüz";
+			};
+			name = Release;
+		};
+		859B2C382B472AE100BF4115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-zUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DenemeArayüz";
+			};
+			name = Debug;
+		};
+		859B2C392B472AE100BF4115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GRNYRMUBZH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omer.DenemeArayu-zUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DenemeArayüz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859B2C022B472ADE00BF4115 /* Build configuration list for PBXProject "DenemeArayüz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859B2C2F2B472AE100BF4115 /* Debug */,
+				859B2C302B472AE100BF4115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859B2C312B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859B2C322B472AE100BF4115 /* Debug */,
+				859B2C332B472AE100BF4115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859B2C342B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859B2C352B472AE100BF4115 /* Debug */,
+				859B2C362B472AE100BF4115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859B2C372B472AE100BF4115 /* Build configuration list for PBXNativeTarget "DenemeArayüzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859B2C382B472AE100BF4115 /* Debug */,
+				859B2C392B472AE100BF4115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 859B2BFF2B472ADE00BF4115 /* Project object */;
+}
