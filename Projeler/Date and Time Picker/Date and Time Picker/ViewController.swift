@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         //Time Picker
         timePicker = UIDatePicker()
         timePicker?.datePickerMode = .time
-        textFieldDate.inputView = timePicker
+        textFieldTime.inputView = timePicker
         timePicker?.addTarget(self, action: #selector(self.timeShow(timePicker:)), for: .valueChanged)
         
         
@@ -47,6 +47,9 @@ class ViewController: UIViewController {
     
     @objc func timeShow(timePicker:UIDatePicker){
         let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "hh:mm"
+        let takedTime = dateFormatter.string(from: timePicker.date)
+        textFieldTime.text = takedTime
         
     }
     
