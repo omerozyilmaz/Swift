@@ -36,5 +36,23 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         cell.textLabel?.text = country[indexPath.row]
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+            
+        let silAction = UIContextualAction(style: .destructive, title: "Cancel"){
+            (UIContextualAction, view, boolValue) in
+            print("Please delete \(self.country[indexPath.row]) ")
+        }
+        
+        let editAction = UIContextualAction(style: .normal, title: "Edit"){
+            (UIContextualAction, view, boolValue) in
+            print("Please edit \(self.country[indexPath.row])")
+        }
+        return UISwipeActionsConfiguration(actions: [silAction,editAction])
+        
+    }
+    
+    
+    
 }
 
