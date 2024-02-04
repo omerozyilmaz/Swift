@@ -33,10 +33,22 @@
                                                     <color key="textColor" systemColor="systemRedColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGU-eG-fol">
+                                                    <rect key="frame" x="297.66666666666669" y="28" width="75.333333333333314" height="35"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <connections>
+                                                        <action selector="cellButton:" destination="wPp-GK-Q6J" eventType="touchUpInside" id="qvf-6E-U01"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="sGU-eG-fol" firstAttribute="trailing" secondItem="eqe-d2-xeN" secondAttribute="trailingMargin" id="1QS-N4-e6O"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="sGU-eG-fol" secondAttribute="bottom" constant="16" id="TUy-fs-az4"/>
                                                 <constraint firstItem="VBb-BV-FbH" firstAttribute="centerY" secondItem="eqe-d2-xeN" secondAttribute="centerY" id="TvM-2d-eQV"/>
                                                 <constraint firstItem="VBb-BV-FbH" firstAttribute="centerX" secondItem="eqe-d2-xeN" secondAttribute="centerX" id="VP8-Ud-mDd"/>
+                                                <constraint firstItem="sGU-eG-fol" firstAttribute="leading" secondItem="VBb-BV-FbH" secondAttribute="trailing" constant="80.329999999999998" id="Zdc-dX-Clp"/>
+                                                <constraint firstItem="sGU-eG-fol" firstAttribute="top" secondItem="eqe-d2-xeN" secondAttribute="topMargin" constant="17" id="yTm-1c-gyq"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

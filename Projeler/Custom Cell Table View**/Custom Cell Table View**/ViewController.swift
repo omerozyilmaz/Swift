@@ -33,18 +33,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
 }
-extension ViewController:UITableViewDataSource,UITableViewDelegate {
+extension ViewController:UITableViewDataSource,UITableViewDelegate,TableViewCellProtocol {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return peopleList.count
     }
+    func pressButton(indexPath: IndexPath) {
+        print("Pressted Button for \(peopleList[indexPath.row].personId!)")
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let peopleData = peopleList[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! TableViewCell
         cell.peopleNameLabel.text = "\(peopleData.personName!) : \(peopleData.personId!)"
+        cell.cellProtocol = self
+        cell.indexPath = indexPath
         return cell
         
     }

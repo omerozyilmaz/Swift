@@ -7,9 +7,16 @@
 
 import UIKit
 
+protocol TableViewCellProtocol {
+    func pressButton(indexPath:IndexPath)
+}
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var peopleNameLabel: UILabel!
+    
+    var cellProtocol:TableViewCellProtocol?
+    var indexPath:IndexPath?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +27,8 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    @IBAction func cellButton(_ sender: Any) {
+        cellProtocol?.pressButton(indexPath: indexPath!)
+    }
+    
 }
